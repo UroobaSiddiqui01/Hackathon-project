@@ -1,0 +1,149 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f2f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff85a1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 28px;
+    color: #fff;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline;
+    margin-left: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ffe6ec;
+}
+
+/* Home Section */
+#home {
+    background-color: #ffe6f2;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home h1 {
+    font-size: 50px;
+    color: #ff5e7e;
+    animation: fadeInDown 2s ease-in-out;
+}
+
+#home p {
+    font-size: 22px;
+    color: #ff85a1;
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+#about h2 {
+    font-size: 32px;
+    color: #ff5e7e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Skills Section */
+.skills {
+    padding: 60px 20px;
+    background-color: #ffe6f2;
+}
+
+.skills img {
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #ff5e7e;
+}
+
+/* Experience Section */
+.experience-item {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-left: 5px solid #ff85a1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+    color: #ff5e7e;
+}
+
+.experience-item p {
+    color: #666;
+}
+
+/* Footer */
+.footer {
+    background-color: #ff85a1;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffe6ec;
+  
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
